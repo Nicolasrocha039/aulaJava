@@ -15,7 +15,7 @@ public class Nota {
                 System.out.println("Você foi aprovado.");
                 System.out.println("Sua média foi "+media);
             } else if (media >= 5) {
-                System.out.println("Você está em recuperação.");
+                System.out.println("Você está em recuperação e precisa de uma nota de mais 2.5 para passar.");
                 System.out.println("Sua média foi "+media);
             } else {
                 System.out.println("Você reprovou.");
